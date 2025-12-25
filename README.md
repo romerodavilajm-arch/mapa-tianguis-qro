@@ -36,10 +36,10 @@ Al seleccionar un tianguis se muestra:
 
 ## 🚀 Acceso Rápido
 
-**URL de la aplicación:** `https://[usuario].github.io/mapa-tianguis-queretaro/`
+**URL de la aplicación:** `https://github.com/romerodavilajm-arch/mapa-tianguis-qro.git`
 
 **Código QR de acceso:**
-![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://[usuario].github.io/mapa-tianguis-queretaro/)
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/romerodavilajm-arch/mapa-tianguis-qro.git)
 
 ## 📊 Estructura de Datos
 
