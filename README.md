@@ -169,13 +169,3 @@ Este es un proyecto interno de la Dirección de Inspección en Comercio y Espect
 **Próxima Versión:** Filtros avanzados y estadísticas  
 
 📌 *Sistema operativo y en constante mejora*
-
----
-
-## **¿QUÉ SIGUE?**
-
-1. **¿Este README se ve bien?** Puedo ajustar cualquier sección
-2. **¿Quieres agregar algo específico?** Logo, contactos oficiales, etc.
-3. **¿Listo para crear el repo con este README?**
-
-**Cuando crees el repositorio, solo copia y pega este contenido en el README.md inicial.**
