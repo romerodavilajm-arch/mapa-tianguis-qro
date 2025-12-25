@@ -87,6 +87,7 @@ mapa-tianguis-queretaro/
 │   └── assets/         # Imágenes y recursos
 ├── docs/               # Documentación completa
 └── README.md           # Este archivo
+```
 
 ## 👥 Para Inspectores
 
@@ -168,7 +169,6 @@ Este es un proyecto interno de la Dirección de Inspección en Comercio y Espect
 **Próxima Versión:** Filtros avanzados y estadísticas  
 
 📌 *Sistema operativo y en constante mejora*
-```
 
 ---
 
