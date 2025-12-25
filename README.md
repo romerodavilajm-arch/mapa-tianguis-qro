@@ -3,7 +3,7 @@
 PWA (Aplicación Web Progresiva) para visualización de tianguis del municipio de Querétaro.
 
 ## 🚀 Demo
-[https://tuusuario.github.io/mapa-tianguis-qro/](https://tuusuario.github.io/mapa-tianguis-qro/)
+https://github.com/romerodavilajm-arch/mapa-tianguis-qro.git
 
 ## 📱 Características
 - Visualización de tianguis en mapa interactivo
