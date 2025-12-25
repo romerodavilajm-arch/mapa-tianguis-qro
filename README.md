@@ -9,7 +9,8 @@ Proporcionar a inspectores acceso rápido y confiable a información de tianguis
 
 ### 🗺️ Visualización Geográfica
 - Mapa interactivo con todos los tianguis del municipio
-- Marcadores coloreados por unión/afiliación
+- **Polígonos delimitadores** que muestran el área física de cada tianguis
+- Polígonos coloreados por **federación/organización** a la que pertenece el tianguis
 - Visualización por delegación (7 zonas)
 - Zoom táctil y navegación intuitiva
 
@@ -17,11 +18,13 @@ Proporcionar a inspectores acceso rápido y confiable a información de tianguis
 - **Por Delegación:** Centro Histórico, Felipe Carrillo Puerto, Felix Osores Sotomayor, Santa Rosa Jáuregui, Epimenio González, Josefa Vergara y Hernández, Villa Cayetano Rubio
 - **Por Días de Operación:** Lunes a Domingo
 - **Por Tipo:** Matutino, Nocturno, Diurno
-- **Por Unión/Afiliación:** Filtrado visual por color
+- **Por Federación/Organización:** Filtrado visual por color de polígonos
 
 ### 👥 Información Detallada
 Al seleccionar un tianguis se muestra:
 - Datos básicos (nombre, ubicación, horario)
+- **Galería de imágenes** del tianguis (almacenadas en Google Drive)
+- **Fotos de la estructura** jerárquica (opcional)
 - Estructura jerárquica completa
 - Contactos telefónicos directos
 - Número de agremiados
@@ -48,16 +51,39 @@ Al seleccionar un tianguis se muestra:
 {
   "id": "TQ-001",
   "nombre": "Tianguis La Cruz",
+  "nombreUnion": "Unión de Comerciantes La Cruz",
   "ubicacion": "Entre Corregidora y 5 de Mayo, Centro",
   "delegacion": "Centro Histórico",
-  "lat": 20.5881,
-  "lng": -100.3881,
+  "coordenadas": {
+    "centro": {
+      "lat": 20.5881,
+      "lng": -100.3881
+    },
+    "poligono": [
+      {"lat": 20.5885, "lng": -100.3885},
+      {"lat": 20.5885, "lng": -100.3877},
+      {"lat": 20.5877, "lng": -100.3877},
+      {"lat": 20.5877, "lng": -100.3885}
+    ]
+  },
   "dias": ["Lunes", "Jueves"],
   "tipo": "Matutino",
   "horario": "08:00-14:00",
   "agremiados": 120,
-  "union": "FECOTAQ",
-  "afiliacion": "Federación de Comerciantes",
+  "federacion": "FECOTAQ",
+  "nombreFederacion": "Federación de Comerciantes de Tianguis de Querétaro",
+  "imagenes": {
+    "tianguis": [
+      "https://drive.google.com/uc?export=view&id=XXXXXXXXXXXXX",
+      "https://drive.google.com/uc?export=view&id=YYYYYYYYYYYYY",
+      "https://drive.google.com/uc?export=view&id=ZZZZZZZZZZZZZ"
+    ],
+    "estructura": {
+      "presidente": "https://drive.google.com/uc?export=view&id=AAAAAAAAAAAA",
+      "representante": "https://drive.google.com/uc?export=view&id=BBBBBBBBBBBBB",
+      "tesorero": null
+    }
+  },
   "estructura": {
     "presidente": {"nombre": "Juan Pérez", "telefono": "4421234567"},
     "representante": {"nombre": "María García", "telefono": "4427654321"},
@@ -66,6 +92,20 @@ Al seleccionar un tianguis se muestra:
   "observaciones": "Ubicación fija, cuenta con baños químicos"
 }
 ```
+
+**Nota sobre la estructura organizacional:**
+- Cada **tianguis** es una **unión** (organización local de comerciantes)
+- Cada unión tiene su propia estructura jerárquica (presidente, representante, tesorero)
+- Varias uniones pueden pertenecer a una **federación u organización** más grande
+- El color del polígono en el mapa representa la federación/organización, no el tianguis individual
+
+**Nota sobre las imágenes:**
+- Las imágenes se almacenan en **Google Drive** para minimizar costos y tamaño del repositorio
+- `imagenes.tianguis`: Array de URLs de fotos del tianguis (vista general, puestos, etc.)
+- `imagenes.estructura`: Objeto con fotos opcionales de presidente, representante y tesorero
+- Usar URLs con formato: `https://drive.google.com/uc?export=view&id=FILE_ID`
+- Para obtener el FILE_ID: Compartir archivo → "Cualquiera con el enlace" → Copiar ID del enlace
+- Si no hay imagen disponible, usar `null` o array vacío `[]`
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -107,7 +147,7 @@ mapa-tianguis-queretaro/
 1. Abrir la aplicación (icono en pantalla)
 2. El mapa cargará con tu ubicación actual
 3. Usar filtros para encontrar tianguis específicos
-4. Tocar cualquier marcador para ver información completa
+4. Tocar cualquier **polígono** (área del tianguis) para ver información completa
 
 ## 👨‍💼 Para Administrador
 
