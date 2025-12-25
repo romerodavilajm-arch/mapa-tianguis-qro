@@ -1,5 +1,3 @@
-# **README.md PROFESIONAL**
-
 # 🗺️ Mapa de Tianguis - Querétaro
 
 Sistema de visualización para la Dirección de Inspección en Comercio y Espectáculos del Municipio de Querétaro.
