@@ -155,17 +155,17 @@ Este es un proyecto interno de la Dirección de Inspección en Comercio y Espect
 
 ## 📞 Contacto y Soporte
 
-**Administrador del Sistema:** [Tu Nombre/Cargo]  
+**Administrador del Sistema:** José María Romero Dávila, Inspector
 **Departamento:** Dirección de Inspección en Comercio y Espectáculos  
 **Municipio de Querétaro**  
-**Actualización:** Enero 2024
+**Actualización:** Enero 2026
 
 ---
 
 ## 🚧 Estado del Proyecto
 
 **Versión Actual:** 1.0.0 (MVP)  
-**Última Actualización:** 2024-01-15  
+**Última Actualización:** 2025-12-30  
 **Próxima Versión:** Filtros avanzados y estadísticas  
 
 📌 *Sistema operativo y en constante mejora*
