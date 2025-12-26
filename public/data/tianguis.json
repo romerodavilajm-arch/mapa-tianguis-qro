@@ -1,0 +1,65 @@
+[
+    {
+        "id": "TQ-001",
+        "nombre": "Tianguis Satelite",
+        "nombreUnion": null,
+        "ubicacion": "Entre Paseo de las Peñas, Av. De las Fuentes, Av. De la Piedra y Himalaya.",
+        "delegacion": "Felix Osores Sotomayor",
+        "coordenadas": {
+            "centro": {
+                "lat": 20.6274669,
+                "lng": -100.4115487
+            },
+            "poligono": [
+                {
+                    "lat": 20.640397,
+                    "lng": -100.450197
+                },
+                {
+                    "lat": 20.642221,
+                    "lng": -100.450969
+                },
+                {
+                    "lat": 20.640542,
+                    "lng": -100.453112
+                },
+                {
+                    "lat": 20.639548,
+                    "lng": -100.452604
+                }
+            ]
+        },
+        "dias": [
+            "Jueves",
+            "Sábado"
+        ],
+        "tipo": "Matutino",
+        "horario": "06:00-17:00",
+        "agremiados": 120,
+        "federacion": "FECOPSE ",
+        "nombreFederacion": "Federación de Comerciantes de Tianguis de Querétaro",
+        "imagenes": {
+            "tianguis": [],
+            "estructura": {
+                "presidente": null,
+                "representante": null,
+                "tesorero": null
+            }
+        },
+        "estructura": {
+            "presidente": {
+                "nombre": "Francisco Ávila",
+                "telefono": null
+            },
+            "representante": {
+                "nombre": "José García",
+                "telefono": null
+            },
+            "tesorero": {
+                "nombre": "Daniel Gonzales",
+                "telefono": null
+            }
+        },
+        "observaciones": "Ubicación fija, cuenta con baños químicos y estacionamiento"
+    }
+]

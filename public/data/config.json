@@ -1,0 +1,48 @@
+{
+    "mapa": {
+        "centroInicial": {
+            "lat": 20.5881,
+            "lng": -100.3899
+        },
+        "zoomInicial": 12,
+        "zoomMinimo": 10,
+        "zoomMaximo": 18
+    },
+    "cache": {
+        "version": "v1.0.0",
+        "tilesZoomMin": 10,
+        "tilesZoomMax": 16,
+        "duracionDias": 30
+    },
+    "ui": {
+        "idioma": "es",
+        "tema": "light",
+        "animaciones": true,
+        "mostrarLeyenda": true,
+        "autoAbrirPanel": true
+    },
+    "filtros": {
+        "mostrarContadores": true,
+        "permitirMultiple": true,
+        "resaltarDiaActual": true
+    },
+    "imagenes": {
+        "lazyLoad": true,
+        "placeholder": "/assets/placeholder.png",
+        "maxPorTianguis": 5
+    },
+    "contacto": {
+        "administrador": "José María Romero Dávila",
+        "cargo": "Inspector",
+        "departamento": "Dirección de Inspección en Comercio y Espectáculos",
+        "municipio": "Querétaro",
+        "telefono": "4421218734",
+        "email": "inspector@queretaro.gob.mx"
+    },
+    "app": {
+        "nombre": "Mapa de Tianguis - Querétaro",
+        "version": "1.0.0",
+        "descripcion": "Sistema de visualización de tianguis para inspectores municipales",
+        "ultimaActualizacion": "2025-12-25"
+    }
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "FECOPSE",
+        "nombre": "Federación de Comerciantes de Tianguis de Querétaro",
+        "nombreCorto": "FECOPSE",
+        "color": "#3B82F6",
+        "descripcion": "Federación principal de comerciantes de tianguis del municipio"
+    },
+    {
+        "id": "FETAQ",
+        "nombre": "Federación de Trabajadores de Querétaro",
+        "nombreCorto": "FETAQ",
+        "color": "#EF4444",
+        "descripcion": "Federación secundaria de comerciantes de tianguis del municipio"
+    },
+    {
+        "id": "FUCQ",
+        "nombre": "Federación y Union de Comerciantes de Querétaro",
+        "nombreCorto": "FUCQ",
+        "color": "#10B981",
+        "descripcion": "Federación terciaria de comerciantes de tianguis del municipio"
+    },
+    {
+        "id": "UTAFAC",
+        "nombre": "Unión de Tianguistas del Ahorro Familiar A. C.",
+        "nombreCorto": "UTAFAC",
+        "color": "#F59E0B",
+        "descripcion": "Federación cuaternaria de comerciantes de tianguis del municipio"
+    },
+    {
+        "id": "INDEPENDIENTE",
+        "nombre": "Tianguis Independientes",
+        "nombreCorto": "Independiente",
+        "color": "#6B7280",
+        "descripcion": "Tianguis no afiliados a ninguna federación u organización"
+    }
+]

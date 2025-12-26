@@ -1,0 +1,72 @@
+[
+    {
+        "id": "centro-historico",
+        "nombre": "Centro Histórico",
+        "coordenadas": {
+            "lat": 20.5913042,
+            "lng": -100.3948518
+        },
+        "zoom": 14,
+        "descripcion": "Zona centro de la ciudad de Querétaro"
+    },
+    {
+        "id": "felipe-carrillo-puerto",
+        "nombre": "Felipe Carrillo Puerto",
+        "coordenadas": {
+            "lat": 20.6055818,
+            "lng": -100.4296567
+        },
+        "zoom": 13,
+        "descripcion": "Delegación noreste de la ciudad"
+    },
+    {
+        "id": "felix-osores-sotomayor",
+        "nombre": "Felix Osores Sotomayor",
+        "coordenadas": {
+            "lat": 20.6348499,
+            "lng": -100.4594172
+        },
+        "zoom": 13,
+        "descripcion": "Delegación al este de la ciudad"
+    },
+    {
+        "id": "santa-rosa-jauregui",
+        "nombre": "Santa Rosa Jáuregui",
+        "coordenadas": {
+            "lat": 20.7422047,
+            "lng": -100.4495859
+        },
+        "zoom": 12,
+        "descripcion": "Delegación norte del municipio"
+    },
+    {
+        "id": "epimenio-gonzalez",
+        "nombre": "Epimenio González",
+        "coordenadas": {
+            "lat": 20.6274669,
+            "lng": -100.4115487
+        },
+        "zoom": 13,
+        "descripcion": "Delegación noroeste de la ciudad"
+    },
+    {
+        "id": "josefa-vergara-hernandez",
+        "nombre": "Josefa Vergara y Hernández",
+        "coordenadas": {
+            "lat": 20.5657165,
+            "lng": -100.3905695
+        },
+        "zoom": 13,
+        "descripcion": "Delegación sur de la ciudad"
+    },
+    {
+        "id": "villa-cayetano-rubio",
+        "nombre": "Villa Cayetano Rubio",
+        "coordenadas": {
+            "lat": 20.6000612,
+            "lng": -100.3599012
+        },
+        "zoom": 13,
+        "descripcion": "Delegación sureste de la ciudad"
+    }
+]
