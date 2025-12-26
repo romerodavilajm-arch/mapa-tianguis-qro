@@ -272,7 +272,7 @@ Al seleccionar un tianguis, debe mostrar:
 - Sin dependencias innecesarias
 
 **RNF-14: Documentación**
-- README completo
+- README
 - Documentación de estructura de datos
 - Guía de instalación para usuarios
 - Guía de actualización para administrador
