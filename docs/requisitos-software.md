@@ -57,9 +57,9 @@ Sistema web progresivo (PWA) para visualizar tianguis del municipio de Querétar
 
 **RF-06: Filtro por Tipo**
 - Filtrar por tipo de tianguis:
-  - Matutino (06:00-14:00)
-  - Diurno (10:00-18:00)
-  - Nocturno (18:00-23:00)
+  - Matutino
+  - Diurno
+  - Nocturno
 - Permitir selección múltiple
 
 **RF-07: Filtro por Federación/Organización**
