@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Sistema de visualización de tianguis para inspectores municipales de Querétaro">
+    <meta name="theme-color" content="#3B82F6">
+    
+    <title>Mapa de Tianguis - Querétaro</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+          crossorigin=""/>
+    
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="assets/icon-192.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Tianguis QRO">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="header-title">🗺️ Tianguis Querétaro</h1>
+            <button class="filter-toggle" id="filterToggle" aria-label="Mostrar filtros">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="4" y1="6" x2="20" y2="6"></line>
+                    <line x1="4" y1="12" x2="20" y2="12"></line>
+                    <line x1="4" y1="18" x2="20" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Sidebar de Filtros -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <h2 class="sidebar-title">Filtros</h2>
+            
+            <!-- Filtro por Delegación -->
+            <div class="filter-section">
+                <h3 class="filter-title">Delegación</h3>
+                <div class="filter-options" id="delegacionFilter">
+                    <!-- Se llenará dinámicamente -->
+                </div>
+            </div>
+
+            <!-- Contador -->
+            <div class="counter">
+                <span class="counter-label">Tianguis visibles:</span>
+                <span class="counter-value" id="tianguisCounter">0</span>
+            </div>
+
+            <!-- Botón limpiar filtros -->
+            <button class="btn-clear" id="clearFilters">Limpiar filtros</button>
+        </div>
+    </aside>
+
+    <!-- Mapa -->
+    <main class="main">
+        <div id="map" class="map"></div>
+    </main>
+
+    <!-- Panel de Información -->
+    <div class="info-panel" id="infoPanel">
+        <div class="info-panel-header">
+            <h2 class="info-panel-title" id="infoPanelTitle">Información del Tianguis</h2>
+            <button class="info-panel-close" id="infoPanelClose" aria-label="Cerrar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div class="info-panel-content" id="infoPanelContent">
+            <!-- Se llenará dinámicamente -->
+        </div>
+    </div>
+
+    <!-- Overlay para cerrar sidebar en móvil -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+            crossorigin=""></script>
+    
+    <!-- App JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
